@@ -1,0 +1,26 @@
+{
+  "name": "wallball",
+  "version": "0.1.0",
+  "description": "Wallball tests the capabilities of passing header and cookie information through grunt-mocha and grunt-lib-phantomjs. Also has a Flask server to serve as 'the wall'.",
+  "main": "`grunt test`",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/pconerly/wallball"
+  },
+  "keywords": [
+    "grunt",
+    "flask",
+    "coffee-script",
+    "coffee",
+    "phantomjs"
+  ],
+  "author": "Peter Conerly",
+  "license": "BSD",
+  "devDependencies": {
+    "grunt-lib-phantomjs": "~0.3.0",
+    "grunt": "~0.4.1"
+  }
+}
