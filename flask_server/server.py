@@ -6,7 +6,7 @@ template_dir = os.path.join(os.path.dirname(__file__),"templates")
 
 app = Flask(__name__, static_folder="media", static_url_path='/media', )
 
-@app.route('/')
+@app.route('/login')
 def hello_world():
     print request.headers
     # return 'Hello headers! \n %s' % request.headers
